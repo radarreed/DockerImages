@@ -1,6 +1,6 @@
 # Use a base image with Python and Jupyter pre-installed
 # jupyter/scipy-notebook includes Python, Jupyter Lab, and many common scientific libraries
-FROM jupyter/scipy-notebook:latest
+FROM jupyter/datascience-notebook:latest
 
 # Set the working directory in the container
 WORKDIR /app

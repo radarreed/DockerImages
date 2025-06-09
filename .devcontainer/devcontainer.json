@@ -1,8 +1,9 @@
 {
-    "name": "Jupyter in Docker",
+    "name": "Jupyter in Docker DS",
     "build": {
         "dockerfile": "../Dockerfile"
     },
+    "runArgs": ["DS Jupyter version", "Jup DS version"],
     "workspaceFolder": "/app",
     "customizations": {
         "vscode": {
