@@ -3,7 +3,7 @@
     "build": {
         "dockerfile": "../Dockerfile"
     },
-    "runArgs": ["--name", "jup ds version"],
+    "runArgs": ["--name", "jup_ds_version"],
     "workspaceFolder": "/app",
     "customizations": {
         "vscode": {
