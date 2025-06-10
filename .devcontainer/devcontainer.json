@@ -3,7 +3,7 @@
     "build": {
         "dockerfile": "../Dockerfile"
     },
-    "runArgs": ["ds Jupyter version", "jup DS version"],
+    "runArgs": ["ds jupyter version", "jup ds version"],
     "workspaceFolder": "/app",
     "customizations": {
         "vscode": {
